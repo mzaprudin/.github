@@ -12,7 +12,8 @@ I build firmware and software that turn sensor readings into usable data, from e
 | [gpu-hyperparam-scheduler](https://github.com/mzaprudin/gpu-hyperparam-scheduler) | Trains time-series CNN–Transformer–BiLSTM models with weighted focal loss; asynchronous search uses one worker per GPU and resumes saved trial history. |
 | [RFIDHunter](https://github.com/mzaprudin/RFIDHunter) | Android item finder using an external Bluetooth UHF RFID reader: signal-strength tag selection, adaptive voice activity detection, offline Vosk recognition and a transactional backup queue. |
 | [FilamentDryer](https://github.com/mzaprudin/FilamentDryer) | ESP32 filament-dryer firmware estimates moisture release from humidity, uses cascaded temperature control and pulse ventilation, and enables fans before heating. |
-| [zero-alloc-json-ws](https://github.com/mzaprudin/zero-alloc-json-ws) | **Zero-allocation JSON** and pooled WebSockets in C#/.NET. Reuses objects and buffers to reduce GC pressure, removing per-message allocations as a source of unpredictable delays in low-latency systems. |
+| [zero-alloc-json](https://github.com/mzaprudin/zero-alloc-json) | **Zero-allocation JSON** in C#/.NET: reused objects, collections and buffers reduce GC pressure and remove per-message allocations as a source of unpredictable pauses. |
+| [pipelines-websocket](https://github.com/mzaprudin/pipelines-websocket) | TCP/TLS and Pipelines WebSocket clients with pooled receive buffers, explicit memory ownership and measurements over physical Ethernet. |
 | [AirWireCom](https://github.com/mzaprudin/AirWireCom) | ESP-NOW serial bridge for ESP32/ESP8266: shared pairing firmware, persistent peer settings and synchronized baud rates across a wireless USB-to-UART link. |
 | [notiprint](https://github.com/mzaprudin/notiprint) | Android notification printer with a durable Room queue, retries and recovery after failures; Cyrillic text is rendered as ESC/POS bitmaps for Bluetooth printing. |
 
@@ -20,5 +21,8 @@ I build firmware and software that turn sensor readings into usable data, from e
 
 - [CPU training example and recorded results](https://github.com/mzaprudin/gpu-hyperparam-scheduler/blob/main/examples/README.md)
 - [RFID mock walkthrough](https://github.com/mzaprudin/RFIDHunter/blob/main/docs/DEVELOPMENT.md#mock-walkthrough)
-- [JSON and routing benchmarks](https://github.com/mzaprudin/zero-alloc-json-ws#json-and-routing-benchmarks)
-- [WebSocket measurements over physical Ethernet](https://github.com/mzaprudin/zero-alloc-json-ws#websocket-over-physical-ethernet)
+- [JSON and routing benchmarks](https://github.com/mzaprudin/zero-alloc-json#fresh-local-measurements)
+- [WebSocket measurements over physical Ethernet](https://github.com/mzaprudin/pipelines-websocket#websocket-over-physical-ethernet)
+
+- [JSON parsing and writing example](https://github.com/mzaprudin/zero-alloc-json/tree/main/samples/ZeroAlloc.Json.Demo)
+- [Both WebSocket clients example](https://github.com/mzaprudin/pipelines-websocket/tree/main/samples/Pipelines.WebSockets.Demo)
