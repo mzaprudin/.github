@@ -2,7 +2,7 @@
 
 <h1><img src="https://raw.githubusercontent.com/mzaprudin/.github/main/profile/assets/readme/hero-en.svg" width="100%" alt="Mikhail Zaprudin — Senior Software &amp; R&amp;D Engineer"></h1>
 
-I am a software engineer and architect. I design **real-time systems and low-latency components** for high-frequency data streams and tackle research problems.
+I design **real-time systems and low-latency components** for high-frequency data streams and tackle research problems.
 
 I independently handle the full development cycle: defining the problem, choosing the architecture, optimizing **CPU/GPU, memory and networking**, and setting up monitoring. My **AI-first** workflow uses LLMs and code generation for research, implementation and learning new languages and domains.
 
