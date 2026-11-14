@@ -1,6 +1,6 @@
 <p align="center"><a href="https://github.com/mzaprudin/.github/blob/main/profile/README.md">English</a> · <strong>Русский</strong></p>
 
-<h1><img src="https://raw.githubusercontent.com/mzaprudin/.github/main/profile/assets/readme/hero-ru.svg" width="100%" alt="Mikhail Zaprudin — Senior Software &amp; R&amp;D Engineer"></h1>
+<h1><img src="https://raw.githubusercontent.com/mzaprudin/.github/main/profile/assets/readme/hero-ru.svg" width="100%" alt="Михаил Запрудин — Senior Software &amp; R&amp;D Engineer"></h1>
 
 Проектирую **системы реального времени и компоненты с низкими задержками** для обработки высокочастотных потоков данных и решаю исследовательские задачи.
 
